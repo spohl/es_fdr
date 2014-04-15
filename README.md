@@ -12,4 +12,5 @@ If your backup (snapshot) goes bad (like you're missing the metadata file) it's 
 
 TODO
 ----
-* Add support for compound files (only supports FDT format).
+* Support for compound files (only supports FDT format).
+* Support data spread across multiple parts (__a1.part0 ...) - at the moment you have to concatenate the files together.
